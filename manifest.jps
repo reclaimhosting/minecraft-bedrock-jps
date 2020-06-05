@@ -20,7 +20,7 @@ nodes:
   nodeGroup: cp
   fixedCloudlets: 4
   flexibleCloudlets: 16
-  image: itzg/minecraft-server
+  image: itzg/minecraft-bedrock-server
   env:
     EULA: TRUE
   displayName: Minecraft Server
