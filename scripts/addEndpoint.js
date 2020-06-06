@@ -37,7 +37,7 @@ if (bEndPointsEnabled) {
         }
     }
 
-    sSuccessText = "To access your Minecraft server, use the server name ${env.domain}:" + oResp.object.publicPort;
+    sSuccessText = "To access your Minecraft server, use the server name ${env.domain} and port number " + oResp.object.publicPort;
 } else {
     sSuccessText = "Public port access is only possible with a billing account. Please upgrade to access your minecraft server remotely and reinstall.";
 }
