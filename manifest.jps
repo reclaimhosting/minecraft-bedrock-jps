@@ -8,10 +8,6 @@ baseUrl: https://raw.githubusercontent.com/reclaimhosting/minecraft-bedrock-jps/
 globals:
   script: ${baseUrl}/scripts/addEndpoint.js
 
-categories: 
-- apps/games
-- apps/popular
-
 description: 
   text: Minecraft servers allow players to play online or via a local area network with other people.
 
